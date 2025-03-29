@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    background-image: url('mr-madruga.jpg');
+    background-size: cover; 
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+h1 {
+    margin: 20px 0;
+    color: #f3f3f3;
+}
+
+#tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.casa {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+.casa.correto {
+    background-color: #6aaa64;
+    color: white;
+}
+
+.casa.parcial {
+    background-color: #c9b458;
+    color: white;
+}
+
+.casa.errado {
+    background-color: #787c7e;
+    color: white;
+}
+
+#entrada {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+}
+
+#enviar {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#mensagem {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
