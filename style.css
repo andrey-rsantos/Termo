@@ -6,6 +6,7 @@ body {
     padding: 0;
     background-image: url('mr-madruga.jpg');
     background-size: cover; 
+    background-position: center;
 }
 
 body::before {
@@ -78,5 +79,5 @@ h1 {
 #mensagem {
     margin-top: 20px;
     font-size: 18px;
-    color: #333;
+    color: #fff;
 }
