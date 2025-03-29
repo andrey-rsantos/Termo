@@ -1,3 +1,3 @@
 # TERMO GAME
 
-https://andreyrsantos.com.br/termo-ooo/
+https://andreyrsantos.com.br/termo
