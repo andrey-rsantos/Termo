@@ -4,9 +4,8 @@ body {
     background-color: #f3f3f3;
     margin: 0;
     padding: 0;
-    background-image: url('mr-madruga.jpg');
+    background-image: url('neo_quimica_arena-wallpaper_em_4k_ds_3840x2160.jpg');
     background-size: cover; 
-    background-position: center;
 }
 
 body::before {
